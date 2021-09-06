@@ -36,3 +36,11 @@
   width: 30px;
   height: 60px;
 }
+.container {
+  padding-top: 70px;
+}
+.container .header__text {
+  font-size: 2.25rem;
+  text-align: center;
+  color: #ce973e;
+}
