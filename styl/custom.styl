@@ -1,2 +1,38 @@
+@font-face
+	font-family "Norse"
+	src url("../norse/Norsebold.otf")
+	font-weight bold
+
 *
 	outline 1px solid red
+
+.nav
+	height 70px
+	width 100vw
+	background white
+	margin-bottom 50px
+	padding 0 20px
+	position fixed
+	display flex
+	justify-content space-between
+	align-items center
+
+	&__img
+		display flex
+		align-items center
+
+	&__odin
+		height 60px
+		width 45.16
+
+	&__text
+		sz = 24 / 16 * 1rem
+		font-size sz
+		text-transform uppercase
+		padding-left 12px
+		font-family "Norse"
+		color #cc9543
+
+	&__menu
+		width 30px
+		height 60px
