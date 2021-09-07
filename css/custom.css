@@ -46,3 +46,17 @@
   padding-bottom: 30px;
   font-weight: 300;
 }
+.container .subheader {
+  padding-bottom: 70px;
+}
+.container .subheader__p {
+  font-size: 1.125rem;
+  margin-bottom: 16px;
+  color: rgba(74,74,74,0.702);
+  text-align: center;
+}
+.container .subheader__link {
+  color: #cc9543;
+  text-decoration: underline;
+  text-align: center;
+}
