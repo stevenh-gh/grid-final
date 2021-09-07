@@ -79,3 +79,7 @@
   font-family: "roboto", sans-serif;
   border-radius: 0.2em;
 }
+.container .hero-img__img {
+  width: 100vw;
+  margin-left: -20px;
+}
