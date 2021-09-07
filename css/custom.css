@@ -60,3 +60,22 @@
   text-decoration: underline;
   text-align: center;
 }
+.container .header-btn {
+  padding-bottom: 60px;
+}
+.container .header-btn__container {
+  margin: auto;
+}
+.container .header-btn__btn {
+  padding: 16px 40px;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: bold;
+  height: 3.5rem;
+  width: 15.625rem;
+  background: #6abfc3;
+  border: none;
+  font-size: 1rem;
+  font-family: "roboto", sans-serif;
+  border-radius: 0.2em;
+}
