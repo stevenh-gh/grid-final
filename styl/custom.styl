@@ -133,3 +133,61 @@ color_4a = #4a4a4ab3
 			sz = 18 / 16 * 1rem
 			font-size sz
 			color color_4a
+
+	.learn-everything
+		background #f3f3f3
+		padding 60px 0
+
+		&__header
+			sz = 24 / 16 * 1rem
+			font-size sz
+			text-align center
+			font-weight bold
+			margin 0 30px
+			margin-bottom 60px
+
+		&__grid
+			display grid
+			grid-template-columns repeat(2, 1fr)
+			grid-template-rows repeat(4, 1fr)
+			margin 0 80px
+
+		&__tile
+			margin auto
+
+			&-flex
+				display flex
+				flex-direction column
+				padding 23px 46px 25px
+				margin-bottom 30px
+				width fit-content
+				background white
+				box-shadow 0 7px 16px 0 rgba(0, 0, 0, 0.05)
+
+			&-img
+				width 160px
+				height 160px
+				margin auto
+
+			&-header
+				sz = 18 / 16 * 1rem
+				font-size sz
+				margin 18px 0 8px
+				text-align center
+				color #4a4a4a
+				text-transform uppercase
+
+		&__btn-container
+			margin auto
+
+		&__btn
+			text-transform capitalize
+			font-size 1rem
+			color white
+			font-weight bold
+			background color_cc
+			margin-top 40px
+			padding 16px 40px
+			border none
+			border-radius 0.2em
+			box-shadow 0 0.05em 0.25em 0 rgba(0, 0, 0, 0.05)
