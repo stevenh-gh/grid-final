@@ -217,3 +217,10 @@
   color: rgba(74,74,74,0.702);
   line-height: 1.88;
 }
+.container .success-stories__read-more {
+  font-size: 1rem;
+  color: rgba(74,74,74,0.702);
+  padding-top: 30px;
+  text-align: center;
+  text-decoration: underline;
+}
