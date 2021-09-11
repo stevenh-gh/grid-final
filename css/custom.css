@@ -249,3 +249,26 @@
 .container .cta__btn a {
   color: #fff;
 }
+.container .footer__flex-container {
+  display: flex;
+}
+.container .footer__soc-media-container {
+  flex-grow: 1;
+}
+.container .footer__soc-media {
+  display: flex;
+  justify-content: space-around;
+}
+.container .footer__icon {
+  font-size: 30px;
+}
+.container .footer__icon a {
+  color: #cc9543;
+}
+.container .footer__link-container {
+  flex-grow: 1;
+  display: flex;
+}
+.container .footer__link-container-section {
+  flex-grow: 1;
+}
