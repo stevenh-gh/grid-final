@@ -9,7 +9,7 @@ color_4a = #4a4a4ab3
 box-shadow = 0 0.05em 0.25em rgba(0, 0, 0, 0.5)
 
 *
-	outline 1px solid red
+	// outline 1px solid red
 
 .nav
 	height 70px
@@ -269,21 +269,40 @@ box-shadow = 0 0.05em 0.25em rgba(0, 0, 0, 0.5)
 
 			a
 				color white
+
 	.footer
 		&__flex-container
-			display: flex
-		&__soc-media-container
-			flex-grow: 1
-		&__soc-media
 			display flex
-			justify-content: space-around
-		&__icon
-			font-size: 30px
-			// display: inline-block
+
+		&__soc-media-container
+			flex-grow 2
+			display flex
+			font-size 24px
+			justify-content space-around
+			align-items center
+
 			a
 				color color_cc
+
 		&__link-container
-			flex-grow: 1
+			flex-grow 1
+
+		&__link-flex
 			display flex
+			width fit-content
+			margin 30px auto
+
 			&-section
 				flex-grow 1
+				display flex
+				flex-direction column
+
+				a
+					text-transform capitalize
+					font-size 1rem
+					color color_4a
+					font-weight bold
+					width 130px
+					height 30px
+					display flex
+					align-items center
