@@ -6,6 +6,7 @@
 color_cc = #cc9543
 color_ce = #ce973e
 color_4a = #4a4a4ab3
+box-shadow = 0 0.05em 0.25em rgba(0, 0, 0, 0.5)
 
 *
 	outline 1px solid red
@@ -190,7 +191,7 @@ color_4a = #4a4a4ab3
 			padding 16px 40px
 			border none
 			border-radius 0.2em
-			box-shadow 0 0.05em 0.25em 0 rgba(0, 0, 0, 0.05)
+			box-shadow box-shadow
 
 	.success-stories
 		background linear-gradient(#fff, #eee)
@@ -242,3 +243,29 @@ color_4a = #4a4a4ab3
 			padding-top 30px
 			text-align center
 			text-decoration underline
+
+	.cta
+		background #eee
+		padding 80px 40px
+
+		&__header
+			sz = 35.2 / 16 * 1rem
+			font-size sz
+			color color_4a
+			margin-bottom 16px + 45px
+			text-align center
+
+		&__btn-container
+			margin auto
+
+		&__btn
+			font-size 1rem
+			font-weight bold
+			padding 16px 40px
+			background #6abfc3
+			border none
+			border-radius 0.2em
+			box-shadow box-shadow
+
+			a
+				color white

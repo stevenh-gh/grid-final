@@ -173,7 +173,7 @@
   padding: 16px 40px;
   border: none;
   border-radius: 0.2em;
-  box-shadow: 0 0.05em 0.25em 0 rgba(0,0,0,0.05);
+  box-shadow: 0 0.05em 0.25em rgba(0,0,0,0.5);
 }
 .container .success-stories {
   background: linear-gradient(#fff, #eee);
@@ -223,4 +223,29 @@
   padding-top: 30px;
   text-align: center;
   text-decoration: underline;
+}
+.container .cta {
+  background: #eee;
+  padding: 80px 40px;
+}
+.container .cta__header {
+  font-size: 2.2rem;
+  color: rgba(74,74,74,0.702);
+  margin-bottom: 61px;
+  text-align: center;
+}
+.container .cta__btn-container {
+  margin: auto;
+}
+.container .cta__btn {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 16px 40px;
+  background: #6abfc3;
+  border: none;
+  border-radius: 0.2em;
+  box-shadow: 0 0.05em 0.25em rgba(0,0,0,0.5);
+}
+.container .cta__btn a {
+  color: #fff;
 }
