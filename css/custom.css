@@ -165,8 +165,22 @@
   grid-template-rows: repeat(4, 1fr);
   margin: 0 80px;
 }
+@media screen and (min-width: 992px) {
+  .container .learn-everything__grid {
+    width: 950px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+  }
+}
 .container .learn-everything__tile {
   margin: auto;
+}
+@media screen and (min-width: 992px) {
+  .container .learn-everything__tile {
+    margin: 0 30px 30px 0;
+  }
 }
 .container .learn-everything__tile-flex {
   display: flex;
